@@ -10,7 +10,7 @@ const toBool = (x) => x === 'true';
 const DB_URL = process.env.DATABASE_URL || '';
 
 module.exports = {
-  SESSION_ID: process.env.SESSION_ID || '', // add your session id here
+  SESSION_ID: process.env.SESSION_ID || 'KAISEN~SpBwDTyB#Sh2u0k5mVB8zltynDW_Fejla9LXn5AYXwe6ZjZY7A4I', // add your session id here
 
   HEROKU: {
     API_KEY: process.env.HEROKU_API_KEY,
@@ -27,7 +27,7 @@ module.exports = {
   ALLWAYS_ONLINE: toBool(process.env.ALLWAYS_ONLINE || 'false'),
   PM_BLOCK: process.env.PM_BLOCK || 'false',
   BGMBOT: toBool(process.env.BGMBOT || 'false'),
-  STATUS_VIEW: process.env.STATUS_VIEW || 'false',
+  STATUS_VIEW: process.env.STATUS_VIEW || 'true',
   SAVE_STATUS: toBool(process.env.SAVE_STATUS || 'false'),
   DISABLE_PM: toBool(process.env.DISABLE_PM || 'false'),
   DISABLE_GRP: toBool(process.env.DISABLE_GRP || 'false'),
